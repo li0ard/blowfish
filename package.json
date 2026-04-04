@@ -1,0 +1,34 @@
+{
+  "name": "@li0ard/blowfish",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "author": "li0ard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/li0ard/blowfish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/li0ard/blowfish/issues"
+  },
+  "homepage": "https://github.com/li0ard/blowfish#readme",
+  "description": "Blowfish cipher implementation in pure TypeScript",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc --project tsconfig.build.json",
+    "docs": "typedoc --options .config/typedoc/config.cjs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typedoc": "^0.28.18"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["blowfish", "crypto", "nist"]
+}
