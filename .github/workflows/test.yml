@@ -11,4 +11,4 @@ on:
 jobs:
   test:
     name: test
-    uses: li0ard/workflow/.github/workflows/test.yml@14b353c12e0b7d50b8942c3c0b68918624dfa205
+    uses: li0ard/workflow/.github/workflows/test.yml@011b6c3387ee28ccb17fc6b849a4d117ab12472b
