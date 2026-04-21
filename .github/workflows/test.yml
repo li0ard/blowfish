@@ -11,10 +11,4 @@ on:
 jobs:
   test:
     name: test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
-
-      - run: bun i
-      - run: bun test
+    uses: li0ard/workflow/.github/workflows/test.yml@14b353c12e0b7d50b8942c3c0b68918624dfa205
