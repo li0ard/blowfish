@@ -1,4 +1,4 @@
-name: Publish (JSR)
+name: Publish (NPM)
 on:
   release:
     types: [published]
